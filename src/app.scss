@@ -48,6 +48,7 @@ header {
   @include flex;
   @include margin;
   margin-top: 100px;
+  margin-bottom: 130px;
 
   .sx {
     width: 45%;
@@ -95,3 +96,38 @@ header {
     }
   }
 }
+
+
+  .traditional {
+    padding: 100px 200px;
+    background: #ffe7d2;
+    h2 {
+      font-size: 26px;
+      padding: 0px 130px;
+      text-align: center;
+      color: #58402c;
+    }
+    .imm {
+      @include flex;
+      justify-content:space-around;
+      padding-top: 80px;
+      img {
+        padding: 0 70px;
+        height: 110px;
+      }
+      span {
+        display: block;
+        font-size: 20px;
+        text-align: center;
+        padding: 30px 40px;
+        color: #58402c;
+      }
+    }
+    .img {
+      padding-top: 90px;
+      text-align: center;
+      img {
+        max-width: 280px;
+      }
+    }
+  }

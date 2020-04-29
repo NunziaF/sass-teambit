@@ -60,6 +60,7 @@ header .menu button img {
   align-items: center;
   margin: 20px 65px;
   margin-top: 100px;
+  margin-bottom: 130px;
 }
 
 .understand .sx {
@@ -118,5 +119,47 @@ header .menu button img {
 
 .understand .dx img {
   width: 100%;
+}
+
+.traditional {
+  padding: 100px 200px;
+  background: #ffe7d2;
+}
+
+.traditional h2 {
+  font-size: 26px;
+  padding: 0px 130px;
+  text-align: center;
+  color: #58402c;
+}
+
+.traditional .imm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 80px;
+}
+
+.traditional .imm img {
+  padding: 0 70px;
+  height: 110px;
+}
+
+.traditional .imm span {
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  padding: 30px 40px;
+  color: #58402c;
+}
+
+.traditional .img {
+  padding-top: 90px;
+  text-align: center;
+}
+
+.traditional .img img {
+  max-width: 280px;
 }
 
