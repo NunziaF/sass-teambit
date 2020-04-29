@@ -1,0 +1,42 @@
+@import "_common";
+@mixin flex {
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+header {
+  @include flex;
+  margin: 20px 65px;
+  border-bottom: 1px solid grey;
+  padding-bottom: 15px;
+  .menu {
+    @include flex;
+    font-size: 14px;
+    font-weight: 600;
+    ul{
+      @include flex;
+      list-style: none;
+      color: #58402c;
+      li {
+        padding-left: 40px;
+        @include flex;
+      }
+    }
+    button {
+      margin-left: 40px;
+      border: 1px solid #30488f;
+      color: #30488f;
+      border-radius: 10px;
+      font-size: 13px;
+      font-weight: 600;
+      padding: 8px 10px;
+      @include flex;
+
+      img {
+        width: 25px;
+        padding-right: 8px;
+      }
+    }
+  }
+}
