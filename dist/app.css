@@ -75,8 +75,8 @@ header .menu button img {
 
 .understand .sx h3 {
   font-size: 22px;
-  margin-bottom: 40px;
   color: #58402c;
+  margin-bottom: 40px;
 }
 
 .understand .sx .bottoni {
@@ -121,32 +121,37 @@ header .menu button img {
   width: 100%;
 }
 
-.traditional {
-  padding: 100px 200px;
+.traditional,
+.teambit {
+  padding: 40px 200px;
   background: #ffe7d2;
 }
 
-.traditional h2 {
+.traditional h2,
+.teambit h2 {
   font-size: 26px;
-  padding: 0px 130px;
+  padding: 50px 130px;
   text-align: center;
   color: #58402c;
 }
 
-.traditional .imm {
+.traditional .imm,
+.teambit .imm {
   display: flex;
   justify-content: space-between;
   align-items: center;
   justify-content: space-around;
-  padding-top: 80px;
+  padding-top: 30px;
 }
 
-.traditional .imm img {
+.traditional .imm img,
+.teambit .imm img {
   padding: 0 70px;
   height: 110px;
 }
 
-.traditional .imm span {
+.traditional .imm span,
+.teambit .imm span {
   display: block;
   font-size: 20px;
   text-align: center;
@@ -154,12 +159,58 @@ header .menu button img {
   color: #58402c;
 }
 
-.traditional .img {
-  padding-top: 90px;
+.traditional .img,
+.teambit .img {
+  padding: 50px 0;
   text-align: center;
 }
 
-.traditional .img img {
+.traditional .img img,
+.teambit .img img {
   max-width: 280px;
+}
+
+.feedback {
+  display: flex;
+  margin-top: 120px;
+}
+
+.feedback .sx {
+  width: 50%;
+  margin-right: 10px;
+}
+
+.feedback .sx img {
+  max-width: 780px;
+  float: right;
+}
+
+.feedback .dx {
+  margin-left: 10px;
+  margin-right: 210px;
+}
+
+.feedback .dx h2 {
+  font-size: 26px;
+  color: #58402c;
+  padding-bottom: 30px;
+}
+
+.feedback .dx p {
+  font-size: 22px;
+  color: #58402c;
+  margin-bottom: 40px;
+}
+
+.feedback .dx a {
+  color: #30488F;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.feedback .dx img {
+  width: 100%;
+  padding-top: 40px;
+  padding-left: 100px;
 }
 

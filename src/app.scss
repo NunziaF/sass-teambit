@@ -7,12 +7,24 @@
 @mixin margin {
   margin: 20px 65px;
 }
+@mixin h3 {
+  font-size: 22px;
+  color: #58402c;
+  margin-bottom: 40px;
+}
+
+@mixin link {
+  color: #30488F;
+  text-decoration: none;
+  font-size: 22px;
+}
 
 header {
   @include flex;
   @include margin;
   border-bottom: 1px solid grey;
   padding-bottom: 15px;
+
   .menu {
     @include flex;
     font-size: 14px;
@@ -57,10 +69,8 @@ header {
       color: #58402c;
       margin-bottom: 30px;
     }
-  h3 {
-      font-size: 22px;
-      margin-bottom: 40px;
-      color: #58402c;
+    h3 {
+      @include h3;
     }
   .bottoni {
     @include flex;
@@ -98,36 +108,69 @@ header {
 }
 
 
-  .traditional {
-    padding: 100px 200px;
-    background: #ffe7d2;
-    h2 {
-      font-size: 26px;
-      padding: 0px 130px;
+.traditional, .teambit {
+  padding: 40px 200px;
+  background: #ffe7d2;
+  h2 {
+    font-size: 26px;
+    padding: 50px 130px;
+    text-align: center;
+    color: #58402c;
+  }
+  .imm {
+    @include flex;
+    justify-content:space-around;
+    padding-top: 30px;
+    img {
+      padding: 0 70px;
+      height: 110px;
+    }
+    span {
+      display: block;
+      font-size: 20px;
       text-align: center;
+      padding: 30px 40px;
       color: #58402c;
     }
-    .imm {
-      @include flex;
-      justify-content:space-around;
-      padding-top: 80px;
-      img {
-        padding: 0 70px;
-        height: 110px;
-      }
-      span {
-        display: block;
-        font-size: 20px;
-        text-align: center;
-        padding: 30px 40px;
-        color: #58402c;
-      }
-    }
-    .img {
-      padding-top: 90px;
-      text-align: center;
-      img {
-        max-width: 280px;
-      }
+  }
+  .img {
+    padding: 50px 0;
+    text-align: center;
+    img {
+      max-width: 280px;
     }
   }
+}
+
+.feedback {
+  display: flex;
+  margin-top: 120px;
+  .sx {
+    width: 50%;
+    margin-right: 10px;
+    img {
+      max-width: 780px;
+      float: right;
+    }
+  }
+  .dx {
+    margin-left: 10px;
+    margin-right: 210px;
+    h2 {
+      font-size: 26px;
+      color: #58402c;
+      padding-bottom: 30px;
+    }
+    p {
+      @include h3;
+    }
+    a {
+      @include link;
+    }
+    img {
+      width: 100%;
+      padding-top: 40px;
+      padding-left: 100px;
+    }
+  }
+}
