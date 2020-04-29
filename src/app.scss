@@ -4,10 +4,13 @@
   justify-content:space-between;
   align-items:center;
 }
+@mixin margin {
+  margin: 20px 65px;
+}
 
 header {
   @include flex;
-  margin: 20px 65px;
+  @include margin;
   border-bottom: 1px solid grey;
   padding-bottom: 15px;
   .menu {
@@ -37,6 +40,58 @@ header {
         width: 25px;
         padding-right: 8px;
       }
+    }
+  }
+}
+
+.understand {
+  @include flex;
+  @include margin;
+  margin-top: 100px;
+
+  .sx {
+    width: 45%;
+    h1 {
+      font-size: 50px;
+      color: #58402c;
+      margin-bottom: 30px;
+    }
+  h3 {
+      font-size: 22px;
+      margin-bottom: 40px;
+      color: #58402c;
+    }
+  .bottoni {
+    @include flex;
+    padding-right: 110px;
+    button {
+      @include flex;
+      color: white;
+      font-size: 14px;
+      background-color: #30488f;
+      padding: 8px 15px;
+      border-radius: 10px;
+
+      img {
+        width: 25px;
+        padding-right: 8px;
+      }
+    }
+  }
+  a {
+    display: block;
+    text-decoration: none;
+    color: #58402c;
+    padding-top: 20px;
+    i{
+      font-size: 12px;
+    }
+  }
+  }
+  .dx {
+    width: 45%;
+    img {
+      width: 100%;
     }
   }
 }

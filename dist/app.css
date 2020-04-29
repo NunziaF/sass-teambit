@@ -54,3 +54,69 @@ header .menu button img {
   padding-right: 8px;
 }
 
+.understand {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 65px;
+  margin-top: 100px;
+}
+
+.understand .sx {
+  width: 45%;
+}
+
+.understand .sx h1 {
+  font-size: 50px;
+  color: #58402c;
+  margin-bottom: 30px;
+}
+
+.understand .sx h3 {
+  font-size: 22px;
+  margin-bottom: 40px;
+  color: #58402c;
+}
+
+.understand .sx .bottoni {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 110px;
+}
+
+.understand .sx .bottoni button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 14px;
+  background-color: #30488f;
+  padding: 8px 15px;
+  border-radius: 10px;
+}
+
+.understand .sx .bottoni button img {
+  width: 25px;
+  padding-right: 8px;
+}
+
+.understand .sx a {
+  display: block;
+  text-decoration: none;
+  color: #58402c;
+  padding-top: 20px;
+}
+
+.understand .sx a i {
+  font-size: 12px;
+}
+
+.understand .dx {
+  width: 45%;
+}
+
+.understand .dx img {
+  width: 100%;
+}
+
