@@ -301,3 +301,127 @@ header .menu button img {
   padding-left: 70px;
 }
 
+.praise {
+  display: flex;
+  margin-top: 120px;
+  padding-bottom: 50px;
+}
+
+.praise .sx {
+  margin-right: 10px;
+  margin-left: 210px;
+}
+
+.praise .sx h2 {
+  font-size: 26px;
+  color: #58402c;
+  padding-bottom: 30px;
+}
+
+.praise .sx p {
+  font-size: 22px;
+  color: #58402c;
+  margin-bottom: 40px;
+}
+
+.praise .sx a {
+  color: #30488F;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.praise .sx img {
+  width: 100%;
+  padding: 40px 70px 60px 70px;
+}
+
+.praise .dx {
+  width: 50%;
+  margin-left: 10px;
+}
+
+.praise .dx img {
+  max-width: 780px;
+  float: left;
+}
+
+.article {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  background-color: #ffe7d2;
+}
+
+.article h1 {
+  font-size: 40px;
+  color: #58402c;
+  padding: 0 380px;
+}
+
+.article .lettera {
+  margin: 50px 300px;
+  background-color: white;
+  border: solid grey 1px;
+}
+
+.article .lettera article {
+  padding: 30px 40px;
+  color: #58402c;
+  line-height: 150%;
+}
+
+.article .lettera .autori {
+  padding-left: 40px;
+  display: flex;
+  padding-bottom: 30px;
+}
+
+.article .lettera .autori img {
+  height: 40px;
+  padding-right: 13px;
+}
+
+.article .lettera .autori .firma span {
+  font-size: 12px;
+  color: #58402c;
+}
+
+.article .lettera .autori .firma .blu {
+  font-size: 14px;
+  color: blue;
+}
+
+.article .bottoni {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.article .bottoni button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 14px;
+  background-color: #30488f;
+  padding: 8px 15px;
+  border-radius: 10px;
+  margin: 0 20px;
+}
+
+.article .bottoni button img {
+  width: 25px;
+  padding-right: 8px;
+}
+
+.article a {
+  display: block;
+  text-decoration: none;
+  color: #58402c;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.article a i {
+  font-size: 12px;
+}
+
