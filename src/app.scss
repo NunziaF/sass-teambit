@@ -172,9 +172,7 @@ header {
     }
     img {
       width: 100%;
-      padding-top: 40px;
-      padding-right: 80px;
-      padding-left: 60px;
+      padding: 40px 80px 60px 70px;
     }
   }
   .dx {
@@ -185,6 +183,36 @@ header {
       float: left;
     }
   }
+}
 
-
+.rewiews {
+  display: flex;
+  margin-top: 120px;
+  .sx {
+    width: 50%;
+    margin-right: 10px;
+    img {
+      max-width: 780px;
+      float: right;
+    }
+  }
+  .dx {
+    margin-left: 10px;
+    margin-right: 210px;
+    h2 {
+      @include h2;
+      padding-bottom: 30px;
+    }
+    p {
+      @include h3;
+    }
+    a {
+      @include link;
+    }
+    img {
+      width: 100%;
+      padding-top: 40px;
+      padding-left: 70px;
+    }
+  }
 }
