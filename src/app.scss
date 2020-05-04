@@ -1,41 +1,22 @@
 @import "_common";
-@mixin flex {
-  display: flex;
-  justify-content:space-between;
-  align-items:center;
-}
-@mixin margin {
-  margin: 20px 65px;
-}
-@mixin h3 {
-  font-size: 22px;
-  color: #58402c;
-  margin-bottom: 40px;
-}
-
-@mixin link {
-  color: #30488F;
-  text-decoration: none;
-  font-size: 22px;
-}
 
 header {
-  @include flex;
-  @include margin;
+  @include flex(space-between);
+  margin: 20px 65px;
   border-bottom: 1px solid grey;
   padding-bottom: 15px;
 
   .menu {
-    @include flex;
+    @include flex(space-between);
     font-size: 14px;
     font-weight: 600;
     ul{
-      @include flex;
+      @include flex(space-between);
       list-style: none;
-      color: #58402c;
+      color: $color_font;
       li {
         padding-left: 40px;
-        @include flex;
+        @include flex(space-between);
       }
     }
     button {
@@ -46,7 +27,7 @@ header {
       font-size: 13px;
       font-weight: 600;
       padding: 8px 10px;
-      @include flex;
+      @include flex(space-between);
 
       img {
         width: 25px;
@@ -57,26 +38,25 @@ header {
 }
 
 .understand {
-  @include flex;
-  @include margin;
+  @include flex(space-between);
+  margin: 20px 65px;
   margin-top: 100px;
   margin-bottom: 130px;
 
   .sx {
     width: 45%;
     h1 {
-      font-size: 50px;
-      color: #58402c;
+      @include h1;
       margin-bottom: 30px;
     }
     h3 {
       @include h3;
     }
   .bottoni {
-    @include flex;
+    @include flex(space-between);
     padding-right: 110px;
     button {
-      @include flex;
+      @include flex(space-between);
       color: white;
       font-size: 14px;
       background-color: #30488f;
@@ -92,7 +72,7 @@ header {
   a {
     display: block;
     text-decoration: none;
-    color: #58402c;
+    color: $color_font;
     padding-top: 20px;
     i{
       font-size: 12px;
@@ -110,15 +90,15 @@ header {
 
 .traditional, .teambit {
   padding: 40px 200px;
-  background: #ffe7d2;
+  background: $color_bg;
   h2 {
     font-size: 26px;
     padding: 50px 130px;
     text-align: center;
-    color: #58402c;
+    color: $color_font;
   }
   .imm {
-    @include flex;
+    @include flex(space-between);
     justify-content:space-around;
     padding-top: 30px;
     img {
@@ -130,7 +110,7 @@ header {
       font-size: 20px;
       text-align: center;
       padding: 30px 40px;
-      color: #58402c;
+      color: $color_font;
     }
   }
   .img {
@@ -157,8 +137,7 @@ header {
     margin-left: 10px;
     margin-right: 210px;
     h2 {
-      font-size: 26px;
-      color: #58402c;
+      @include h2;
       padding-bottom: 30px;
     }
     p {
@@ -173,4 +152,39 @@ header {
       padding-left: 100px;
     }
   }
+}
+
+.survey {
+  display: flex;
+  margin-top: 120px;
+  .sx {
+    margin-right: 10px;
+    margin-left: 210px;
+    h2 {
+      @include h2;
+      padding-bottom: 30px;
+    }
+    p {
+      @include h3;
+    }
+    a {
+      @include link;
+    }
+    img {
+      width: 100%;
+      padding-top: 40px;
+      padding-right: 80px;
+      padding-left: 60px;
+    }
+  }
+  .dx {
+    width: 50%;
+    margin-left: 10px;
+    img {
+      max-width: 780px;
+      float: left;
+    }
+  }
+
+
 }

@@ -3,3 +3,34 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+@mixin flex ($content){
+  display: flex;
+  justify-content:$content;
+  align-items:center;
+}
+
+@mixin h3 {
+  font-size: 22px;
+  color: #58402c;
+  margin-bottom: 40px;
+}
+
+@mixin link {
+  color: #30488F;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+@mixin h1 {
+  font-size: 50px;
+  color: $color_font;
+}
+
+@mixin h2 {
+  font-size: 26px;
+  color: $color_font;
+}
+
+$color_bg: #ffe7d2;
+$color_font: #58402c;

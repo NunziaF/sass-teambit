@@ -214,3 +214,48 @@ header .menu button img {
   padding-left: 100px;
 }
 
+.survey {
+  display: flex;
+  margin-top: 120px;
+}
+
+.survey .sx {
+  margin-right: 10px;
+  margin-left: 210px;
+}
+
+.survey .sx h2 {
+  font-size: 26px;
+  color: #58402c;
+  padding-bottom: 30px;
+}
+
+.survey .sx p {
+  font-size: 22px;
+  color: #58402c;
+  margin-bottom: 40px;
+}
+
+.survey .sx a {
+  color: #30488F;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.survey .sx img {
+  width: 100%;
+  padding-top: 40px;
+  padding-right: 80px;
+  padding-left: 60px;
+}
+
+.survey .dx {
+  width: 50%;
+  margin-left: 10px;
+}
+
+.survey .dx img {
+  max-width: 780px;
+  float: left;
+}
+
