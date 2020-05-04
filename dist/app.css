@@ -425,3 +425,42 @@ header .menu button img {
   font-size: 12px;
 }
 
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 65px 35px;
+}
+
+footer .loghino {
+  width: calc(100%/8*3);
+  color: #58402c;
+  font-weight: 700;
+  padding-right: 70px;
+  display: flex;
+  align-items: flex-start;
+}
+
+footer .loghino img {
+  width: 100px;
+  margin-right: 30px;
+}
+
+footer .elenco {
+  width: calc(100%/8);
+}
+
+footer .elenco h3 {
+  color: #58402c;
+  font-weight: 700;
+}
+
+footer .elenco ul {
+  list-style-type: none;
+  line-height: 200%;
+}
+
+footer .elenco ul li a {
+  text-decoration: none;
+  color: #58402c;
+}
+

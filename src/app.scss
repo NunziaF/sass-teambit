@@ -87,7 +87,6 @@ header {
   }
 }
 
-
 .traditional, .teambit {
   padding: 40px 200px;
   background: $color_bg;
@@ -290,8 +289,6 @@ header {
 
   .bottoni {
     @include flex(center);
-
-
     button {
       @include flex(space-between);
       color: white;
@@ -315,6 +312,42 @@ header {
     text-align: center;
     i{
       font-size: 12px;
+    }
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 65px 35px;
+  .loghino {
+    width: calc(100%/8*3);
+    color: $color_font;
+    font-weight: 700;
+    padding-right: 70px;
+    display: flex;
+    align-items:flex-start;
+
+    img {
+      width: 100px;
+      margin-right: 30px;
+    }
+  }
+  .elenco {
+    width: calc(100%/8);
+    h3 {
+      color: $color_font;
+      font-weight: 700;
+    }
+    ul {
+      list-style-type:none;
+      line-height: 200%;
+      li{
+        a{
+          text-decoration: none;
+          color: $color_font;
+        }
+      }
     }
   }
 }
